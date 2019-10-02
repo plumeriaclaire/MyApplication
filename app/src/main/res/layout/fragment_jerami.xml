@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.JeramiFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <EditText
+        android:id="@+id/BKtan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#3F51B5"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_margin="20dp"/>
+        <EditText
+        android:id="@+id/ntan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_primary"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_margin="20dp"
+        android:hint="N tanaman"/>
+    <EditText
+        android:id="@+id/Ptan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/design_default_color_primary"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="P tanaman"/>
+    <EditText
+        android:id="@+id/Ktan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#3F51B5"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="K tanaman"/>
+    </LinearLayout>
+</FrameLayout>

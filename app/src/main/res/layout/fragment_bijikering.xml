@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.BijikeringFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:id="@+id/BKbiji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="#3F51B5"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+        <EditText
+            android:id="@+id/nbiji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@color/design_default_color_primary"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+        <EditText
+            android:id="@+id/Pbiji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@color/design_default_color_primary"
+            android:ems="10"
+            android:inputType="numberDecimal"/>
+    <EditText
+        android:id="@+id/Kbiji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#000000"
+        android:ems="10"
+        android:inputType="numberDecimal"/>
+    </LinearLayout>
+</FrameLayout>
